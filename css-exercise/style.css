@@ -1,0 +1,57 @@
+#pink-text {
+    color: pink;
+}
+
+#white-text {
+    color: white;
+}
+
+table, th, td {
+    border: 2px solid pink;
+}
+
+.pink-background {
+    background-color: pink;
+}
+
+body {
+    text-align: center;
+    list-style-position: inside;
+}
+
+table {
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[order] {
+    font-weight:bold;
+}
+
+[order="none"] {
+    font-size: 24px;
+}
+
+div p {
+    font-size: 30px;
+}
+
+div > p {
+    text-decoration: underline;
+}
+
+#border.glow {
+    box-shadow: 5px 0px 5px #FFC0CB;
+}
+
+footer {
+    padding-bottom: 40px;
+}
