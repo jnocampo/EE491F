@@ -1,0 +1,67 @@
+.pokemon-logo-resize {
+    width: 550px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    margin-left: 49%;
+    bottom: 0;
+    padding-bottom: 5%;
+}
+
+.hidden-britney {
+    position: absolute;
+    margin-left: 10%;
+}
+
+.full-body-image {
+    background-image: url("https://i.ytimg.com/vi/oJ6gU9l8_m0/maxresdefault.jpg");
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-text {
+    position: absolute;
+}
+
+.button-card {
+    right: 2%;
+    top: 8px;
+}
+
+.button-color:hover{
+    border: 5px solid orange;
+}
+
+#card-details {
+    height: 400px;
+    width: auto;
+    right: 20%;
+    top: 8%;
+}
+
+#disclaimer {
+    right: 2%;
+    top: 50px;
+    color: #ffcb05;
+}
+
+.navbar {
+    min-height: 45px;
+}
+
+body {
+    background-color: transparent !important; 
+}
+
+.alert {
+    width: 15%;
+    height: auto;
+}
+
+#disclaimer2 {
+    left: 90%;
+}

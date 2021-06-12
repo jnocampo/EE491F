@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="full-body-image">
+    <head> 
+        <title>jQuery Exercise</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> 	 	
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".button-color").hover(function() {
+                    $(this).css("color", "#ffcb05");
+                });
+        
+                $(".view-details").on("click", function() {
+                    $("#card-details").toggle();
+                });
+
+                $(".view-details").prepend('<img id="card-details" class="position-text border border-dark shadow-sm p-3 mb-5 bg-body rounded" style="display: none" src="pokemon-card.jpeg"/>');
+
+                $("button").add("p").css("background-color", "#2a75bb");
+            });
+        </script>
+    </head>
+    <nav class="navbar">
+        <div class="view-details container-fluid">
+            <button type="button" id="pause" class="button-card button-color position-text btn btn-sm btn-outline-secondary">Click to view player card</button>
+        </div>
+    </nav>
+    <body>
+        <div class='container'>
+            <div class="column">
+                <script>
+                    alert("Have your volume on and be careful headphone users! Please click pokemon to see the pokemon!")
+                </script>
+                <div class="grid">
+                    <img src="britney.png" class="hidden-britney">
+                    <img src="test.png" class="hidden-britney bye-britney">
+                </div>
+            </div>
+            <div class="column">
+                <div class="alert alert-warning fade show" id="disclaimer2" role="alert">
+                    <strong>Want the sound off?</strong> Click the player card button to stop the audio.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="container">
+        <div class="button-box" id="play">
+            <img src="pokemon-logo.png" id="image-hover" class="pokemon-logo-resize">
+        </div>
+    </footer>
+</html>
